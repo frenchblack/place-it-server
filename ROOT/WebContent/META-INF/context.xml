@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/ROOT" docBase="ROOT" reloadable="true">
+    
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+   
+
+    <Resource name="jdbc/CUBRIDDS"
+               auth="Container"
+               type="javax.sql.DataSource"
+               driverClassName="cubrid.jdbc.driver.CUBRIDDriver"
+               url="jdbc:cubrid:localhost:30000:seefood:::"
+               username="dba"
+               password="1234"
+               maxActive="20"
+               maxIdle="10"
+               maxWait="-1"
+               poolPreparedStatements="true"
+    ></Resource>
+    
+</Context>
+
+
+
